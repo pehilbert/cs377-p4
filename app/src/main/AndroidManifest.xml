@@ -21,6 +21,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <provider
+            android:name=".event.EventProvider"
+            android:authorities="com.peter.eventprovider"
+            android:exported="true" />
+    </application>
 </manifest>
